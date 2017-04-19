@@ -1,4 +1,4 @@
-levels=bof1 bof2 bof3 bof4 fmt1 fmt2 fmt3 fmt4 fmt5 fuzz1 fuzz2
+levels=bof1 bof2 bof3 bof4 fmt1 fmt2 fmt3 fmt4 fmt5 fmt6 fuzz1 fuzz2
 
 build:
 	for i in $(levels); do sudo make -C $$i install; done
